@@ -23,13 +23,19 @@ div#form-outer{
         display:block;
     }
 }
+
+.rowTab{
+    display:block;
+}
 .labels{
     display: inline-block;
+    width:40%;
+    text-align: right;
     padding:5px;
     vertical-align:top;
     margin-top:10px;
     label{
-        text-align:left;
+        cursor:default;
 
     }
 }
@@ -37,6 +43,7 @@ div#form-outer{
     display: inline-block;
     text-align: left;
     vertical-align: middle;
+    width:48%;
 }
 .input-field{
     height:20px;
@@ -62,8 +69,24 @@ div#form-outer{
     }
     
 }
+ul{
+    display:block;
+    li{
+        position:relative;
+        left:-43px;
+        margin-left:10px;
+        display: block;
+        padding-bottom:10px;
+    }
+}
 textarea{
     font-family: monospace;
+    
+    width:280px;
+    padding:5px;
+    margin:10px;
+    border:1px solid #c0c0c0;
+    border-radius: 2px;
 }
 #submit{
     background-color:#59ace0;
